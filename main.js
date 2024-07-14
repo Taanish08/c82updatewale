@@ -1,5 +1,5 @@
-Canvas=document.getElementById("myCanvas");
-ctx= Canvas.getContext("2d");
+canvas=document.getElementById("myCanvas");
+ctx= canvas.getContext("2d");
 mouseEvent=["empty"]
 
 Canvas.addEventListener("mousedown",myMousedown);
